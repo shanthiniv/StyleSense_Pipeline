@@ -1,0 +1,14 @@
+# StyleSense Fashion Review Predictor
+ML pipeline for predicting product recommendations from reviews.
+
+## Features
+- Text preprocessing (fashion-specific cleaning)
+- TF-IDF feature engineering
+- Scikit-learn Pipeline + GridSearchCV tuning
+- Logistic Regression classifier
+
+## Usage
+Update 'reviews.csv' path and run script. Expects 'review_text' and 'recommendation' (0/1) columns.
+
+## Results Example
+Accuracy: ~87% on test set.
